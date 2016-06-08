@@ -13,8 +13,13 @@ npm install
 
 # create a .env file and add APP_VERIFY_TOKEN
 
-# deploy via https://zeit.co/now
-now 
+# start the server
+npm start
+
+# deploy via https://localtunnel.me (in a separate terminal)
+npm install -g localtunnel
+lt --port 3000
+
 
 # follow steps at https://developers.facebook.com/docs/messenger-platform/quickstart
 # update APP_PAGE_TOKEN via POST /token
